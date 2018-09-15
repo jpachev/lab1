@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+ 
+<div class="wrapper">    
+<div class="topnav" id="myTopnav">
+  <a href="http://ec2-18-191-78-59.us-east-2.compute.amazonaws.com/lab1.html" class="active">Home</a>
+  <a href="http://ec2-18-191-78-59.us-east-2.compute.amazonaws.com/about.html">About</a>
+  <a href="http://ec2-18-191-78-59.us-east-2.compute.amazonaws.com/projects.html">Projects</a>
+  <a href="http://ec2-18-191-78-59.us-east-2.compute.amazonaws.com/fun_facts.html">Fun Facts</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="top-pane">
+    <h2> Fun Facts </h2>
+</div>
+
+<div class="bottom-pane">
+    
+<ol>
+ <li>My family is slightly famous for running in crocs </li>
+   <img class = img2 src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/1076/articles/2015/08/pachevfamily-1498588561.jpg?resize=480:*">
+     <ul>
+         <li> 
+           <a href="https://www.sbnation.com/lookit/2017/5/11/15624758/teen-runs-marathon-in-crocs-utah-family">More About My Family</a>
+         </li>
+         <li>
+             <a href="https://magazine.byu.edu/article/running-with-crocs/">And Even More</a>
+         </li>
+     </ul>
+     <li> Crocs make surprisingly great running shoes!</li>
+     <img class = img3 src="https://magazine.byu.edu/wp-content/uploads/2018/04/WEB_18-027_-Slade_2018-21-03-Crocs-23-of-24-Edit-DONE-900x600.jpg">
+ </ol> 
+</div>
+</div>
+
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>

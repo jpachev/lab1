@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ body { 
+     background-color: #DB7093;
+ } 
+ 
+ h1 { color: white}
+ 
+        
+</style>
+</head>
+<body>
+ <h1>Hello World</h1>
+ <p>
+     Enter your name
+ </p>
+        
+ <form>
+ <input type="text" id="myform">
+ <button onclick="myFunction(event)">Click here</button>
+</form>
+
+<p id = "demo"></p>
+<script>
+    function myFunction(event)
+    {
+        document.getElementById("demo").innerHTML = "Hello " +document.getElementById("myform").value;
+        event.preventDefault();
+    }
+</script>
+</body>
+</html

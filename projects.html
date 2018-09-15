@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+ 
+<div class="wrapper">    
+<div class="topnav" id="myTopnav">
+  <a href="http://ec2-18-191-78-59.us-east-2.compute.amazonaws.com/lab1.html" class="active">Home</a>
+  <a href="http://ec2-18-191-78-59.us-east-2.compute.amazonaws.com/about.html">About</a>
+  <a href="http://ec2-18-191-78-59.us-east-2.compute.amazonaws.com/projects.html">Projects</a>
+  <a href="http://ec2-18-191-78-59.us-east-2.compute.amazonaws.com/fun_facts.html">Fun Facts</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="top-pane">
+<h2> Projects </h2>
+</div>
+<div class="bottom-pane">
+<ol> 
+<li>
+ <a href= "http://ec2-18-191-78-59.us-east-2.compute.amazonaws.com/hello1.html">
+ Say Hello 
+ </a> 
+</li>
+<li>
+ <a href= "http://ec2-18-191-78-59.us-east-2.compute.amazonaws.com/llamas.html">
+ Beautiful Llamas 
+ </a> 
+</li>
+<li>
+<a href= "http://ec2-18-191-78-59.us-east-2.compute.amazonaws.com/color_change.html">
+ Change Color </a>
+</li>
+</ol>
+</div>
+</div>
+
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>

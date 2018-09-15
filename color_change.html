@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+         p {color: blue;}
+         body {background-color: blue;}
+    </style>     
+    </head>
+<body>
+ <h1> Change the color by clicking the button! </h1>
+ 
+ <button onclick="changeColor(event)">Click here</button>
+ <script>
+ 
+    document.getElementById('change').onclick = changeColor;   
+
+    function changeColor(event)
+    {
+        if (document.body.style.backgroundColor == "pink")
+           document.body.style.backgroundColor = "blue";
+        else {   
+          document.body.style.backgroundColor = "pink";
+        }
+    }
+</script>
+   
+</body>
+</html> 
