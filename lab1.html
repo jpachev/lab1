@@ -2,22 +2,27 @@
 <html>
 <head>
  <link rel="stylesheet" href="style.css">  
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-<div class="wrapper">     
+<div class="wrapper">    
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="http://ec2-18-191-78-59.us-east-2.compute.amazonaws.com/projects.html">Projects</a>
+  <a href="http://ec2-18-191-78-59.us-east-2.compute.amazonaws.com/about.html">About</a>
+  <a href="http://ec2-18-191-78-59.us-east-2.compute.amazonaws.com/fun_facts.html">Fun Facts</a>
+  <a href="javascript:void(0);" class="icon" onclick="switchTabs()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
 <div class="top-pane">
- <div class="left-pane">
   <h1> Jenny Pachev </h1>
-   <h2> About </h2>
-  <p1> I'm currently a computer science major at BYU.
-  I am interested in cybersecurity and bioinformatics </p1>
  </div>
  
- <div class="right-pane" 
  <img class = img1 src= "https://lh3.googleusercontent.com/iPeFkfDfEGGE9XwTxSKDDuhV9-5nRRMMMdRbVTIiHcX7V-5UC2MBGPC_g5v6YTJsimFvq3Dhy7MjjUDKZDydkIscD675NnV_e2ovUxoIu4mqCnmDXeBG2kdN3F1zS11lJXjFpBkx2wzLjKvjDn8IxRDVVZ4xOOiovBtOBdjfUStYmcyraxSjdxMLoB_pUWrn9L4s8P6v4Mfq2tbnwcyIRJx5ZV6W1w7ZCTypqjiXCFx-qqOwG4UEAM_F4jJpGvNpHIrKwjrex_ZZ_Nbjwv2mIhCFRkJgzQ9YJKg4bnD2iG5sOEhYvtlB1mQrK48GLkY_DxmL4yS-nuzsj8wu-8FFa_ODEWEDMnqVwTXSAbHv5WObprDG6MXkdOafXF7_N7d5f2HSUEQst7dU6cn4uFAuCnvtz15gFQhMXW40Ovsa4ZwmUfeMVEwQigilKaZqk7xvSpOYXjYHyufUsSUHEtVSc9TRCV80mvAVhB88KmLAyGsTmC8Pw7H-O18u9tQTNzSVvBFbcbVuZx96AuMn1412SgxXqTP_MRapniBUS-icDLJ_VFu7O5EBZT_VbboHuqrCLo_b9cUf617xpLNH2moedFabZ6tHZE4_0B3c55mHl3F7MhAYtFn4gaIvINdZzHbfhM82HbSb9Cl7R69h6C0E-v2J-azAp7cQvHK1O_aP035zX1XwFd7bKjmo=w821-h627-no">
-
-</div>
 <div class="bottom-pane"> 
 
 <h3 onmouseover="this.className = 'mouseOn'" 
@@ -69,6 +74,16 @@ onmouseout="this.className= ''"
 </div>
 </div>
 
+<script>
+function switchTabs() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 
  </body>
 </html>

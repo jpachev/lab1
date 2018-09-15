@@ -5,6 +5,36 @@
     margin: 0px 0px 0px 0px;
 }
 
+.topnav {
+    background-color: gray;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
 .top-pane {
    flex: 0 0 65%;
    padding: 3px;
@@ -43,7 +73,7 @@ body {
 
 
 h1 {
-    font-family: Quicksand; font-size: 48px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px; 
+    font-family: Quicksand; font-size: 50px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px; 
     color: white;
 }
 
