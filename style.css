@@ -78,15 +78,44 @@ h1 {
 }
 
 h2 {
+    font-family: Quicksand; font-size: 36px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px; 
     color: white;
 }
 
+h3 {
+    font-family: Quicksand; font-size: 36px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px; 
+    color: #646464;
+}
+
+h4 {
+    font-family: Quicksand; font-size: 36px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px; 
+    color: #646464;
+}
+
+h5 {
+    font-family: Quicksand; font-size: 36px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px; 
+    color: #646464;
+}
+
+
 p {
-    color: gray;
+    color: #646464;
+}
+
+p1 {
+    color: white;
+}
+
+a {
+    color: #646464;
+}
+
+li {
+    color: #646464;
 }
 
 .mouseOn {
-    background-color: gray;
+    background-color: #4CAF50;
 }
 
 
