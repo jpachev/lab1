@@ -39,6 +39,7 @@
    flex: 0 0 65%;
    padding: 3px;
    margin: 0px;
+   text-align: center;
    background-color : orange;
   
 }
@@ -61,15 +62,23 @@ body {
 }
 
 .img1 {
-    float: left;
-    height :200px; 
+    border-radius: 50%;
+    height :250px; 
     width : 300px;
 }
 
 .img2 {
-    height :200px; 
-    width : 300px;
+    height :250px; 
+    width : 400px;
 }
+
+.img3 {
+height: 250px;
+width: 450px;
+
+}
+
+
 
 
 h1 {
@@ -88,13 +97,15 @@ h3 {
 }
 
 h4 {
-    font-family: Quicksand; font-size: 36px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px; 
+    font-family: Quicksand; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px;
+    margin: 0;
     color: #646464;
 }
 
 h5 {
-    font-family: Quicksand; font-size: 36px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px; 
-    color: #646464;
+    font-family: Quicksand; font-size: 36px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px;
+    margin:  0px;
+    color: white;
 }
 
 
@@ -103,12 +114,19 @@ p {
 }
 
 p1 {
+    font-family: Quicksand; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px;
     color: white;
+}
+
+p2 {
+    
+     color: white;
 }
 
 a {
     color: #646464;
 }
+
 
 li {
     color: #646464;
